@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.goldStar{
+    color: gold;
+    cursor: pointer;
+}
+.emptyStar{
+    color: #827E7E;
+    cursor: pointer;
+}

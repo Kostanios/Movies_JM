@@ -1,0 +1,16 @@
+.container{
+    padding: 2px;
+    margin: 0 3px;
+    margin-bottom: 5px;
+    background: #FAFAFA;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.65);
+    font-family: 'Inter', sans-serif;
+    cursor: default;
+}

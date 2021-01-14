@@ -1,0 +1,9 @@
+.collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 9vw;
+}
+.spinner{
+    margin-top: 40vh;
+}

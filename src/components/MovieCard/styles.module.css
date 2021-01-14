@@ -1,0 +1,69 @@
+.title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 12px;
+    margin-bottom: 7px;
+}
+.card{
+    width: 38vw;
+    display: flex;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    margin: 1vw;
+    min-height: 32vw;
+}
+.poster{
+    object-fit: cover;
+    width: 16vw;
+}
+.genres{
+    margin: 0 -3px;
+    margin-bottom: 7px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.info{
+    padding: 0 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.date{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #827E7E;
+    margin-bottom: 9px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.circle{
+    font-family: 'Inter', sans-serif;
+    margin-top: 5px;
+    min-width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rate{
+    font-size: 12px;
+    line-height: 22px;
+    color: #000000;
+}
+.mainInfo{
+    flex-grow: 1;
+}
