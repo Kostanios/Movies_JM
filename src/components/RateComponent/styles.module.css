@@ -12,3 +12,9 @@
     color: #827E7E;
     cursor: pointer;
 }
+@media(max-width: 720px){
+    .container{
+        position: relative;
+        right: 8vw;
+    }
+}

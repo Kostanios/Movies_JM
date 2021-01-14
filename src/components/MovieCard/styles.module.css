@@ -67,3 +67,24 @@
 .mainInfo{
     flex-grow: 1;
 }
+@media(max-width: 960px){
+    .card{
+        width: 80vw;
+    }
+}
+@media(max-width: 720px){
+    .poster{
+        width: 15vw;
+        height: 22vw;
+    }
+}
+@media(max-width: 465px){
+    .overview{
+        position: relative;
+        right: 8vw;
+    }
+    .poster{
+        width: 70px;
+        height: 100px;
+    }
+}

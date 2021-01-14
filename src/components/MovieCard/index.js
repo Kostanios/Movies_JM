@@ -46,7 +46,7 @@ const MovieCard = ({ movie, rating }) => {
               )
               : null}
             </ul>
-            <p>{movie.overview ? cutOverview(movie.overview) : 'хороший фильм'}</p>
+            <p className={styles.overview}>{movie.overview ? cutOverview(movie.overview) : 'хороший фильм'}</p>
           </div>
           : <Skeleton active></Skeleton>}
           <RateComponent yourRate={rating} moviesId={movie.id}/>
