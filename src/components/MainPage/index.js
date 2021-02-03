@@ -36,7 +36,7 @@ const MainPage = () => {
 
   const memoizedGetRatedMovies = useCallback(
     () => {
-      getRatedMovies(guestSessionId).then((data) => {
+      getRatedMovies(guestSessionId, ratedCurPage).then((data) => {
         if (!data.results) { return; }
         setRatedMovies(data.results);
         if (data.results.length === 0) {
@@ -56,7 +56,6 @@ const MainPage = () => {
         } else { setSearchAlert(null); }
         setTotalPages(data.total_pages);
       });
-      memoizedGetRatedMovies();
     },
     [curPage, searchValue],
   );
@@ -79,7 +78,7 @@ const MainPage = () => {
     } else {
       setSearchAlert(null);
     }
-  }, [activeButton]);
+  }, [activeButton, ratedCurPage]);
   const defaultContext = {
     filteredMovies,
     setFilteredMovies,
